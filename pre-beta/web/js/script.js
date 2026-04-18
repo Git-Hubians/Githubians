@@ -2,25 +2,25 @@ const stories = [
   {
     id: 1,
     type: 'project',
-    title: 'A tiny self-hosted issue board for side projects',
-    description: 'An open source board focused on simplicity, markdown tasks, and no-login contributor flows.',
-    tags: ['oss', 'productivity', 'self-hosted'],
+    title: 'CPU Scheduler project',
+    description: '🚀 سعيدة بمشاركة أحدث مشاريعي: CPU Design Simulator',
+    tags: ['cpu', 'computer-architecture', 'scheduling'],
   },
   {
     id: 2,
     type: 'blog',
-    title: 'Why minimal web design still wins for developer communities',
-    description: 'A practical argument for strong typography, neutral backgrounds, and fast-first interfaces.',
-    tags: ['design', 'community', 'frontend'],
+    title: 'إطلاق منصة Githubians',
+    description: '',
+    tags: ['design', 'community'],
   }
   
 ];
 
 const sidebarNews = [
   {
-    source: 'indie builders',
-    title: 'Tiny communities are outperforming bigger feeds in engagement',
-    sub: 'Smaller curated spaces are keeping signal high and moderation costs low.'
+    source: 'اضطرابات في اوبن اي آي',
+    title: 'غادر المسؤول السابق عن المنتجات ورئيس "سورا" (Sora) شركة OpenAI في أحدث تغييرات قيادية',
+    sub:'' ,
   }
 ];
 
