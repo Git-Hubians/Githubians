@@ -281,49 +281,42 @@ select {
   letter-spacing: -0.04em;
 }
 
+
 .jobs-row {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  width: min(100%, 580px);
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
   margin: 0 auto;
-  border: 2px solid var(--line);
-  background: var(--bg);
+  width: fit-content;
+  border: none;
+  background: transparent;
 }
 
-.job-tile {
-  min-height: 96px;
-  border-right: 2px solid var(--line);
-  display: flex;
+.btn88 {
+  width: 88px;
+  height: 31px;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 12px;
-  text-align: center;
+  text-decoration: none;
+  border: 2px solid var(--line);
   background: var(--bg);
-  transition: background 140ms ease, transform 140ms ease;
+  overflow: hidden;
+  image-rendering: pixelated;
 }
 
-.job-tile:last-child {
-  border-right: 0;
+.btn88 img {
+  width: 88px;
+  height: 31px;
+  display: block;
+  object-fit: cover;
 }
 
-.job-tile:hover,
-.job-tile:focus-visible {
-  background: rgba(255, 255, 255, 0.08);
+.btn88:hover,
+.btn88:focus-visible {
   transform: translateY(-1px);
   outline: none;
-}
-
-.job-tile strong {
-  display: block;
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-.job-tile span {
-  display: block;
-  font-size: 0.82rem;
-  color: var(--muted);
-  margin-top: 6px;
 }
 
 .sidebar h3 {
@@ -560,9 +553,6 @@ select {
     min-height: 300px;
   }
 
-  .jobs-row {
-    grid-template-columns: repeat(2, 1fr);
-  }
 
   .stream-card {
     grid-template-columns: 1fr;
