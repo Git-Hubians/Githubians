@@ -12,35 +12,8 @@ const stories = [
     title: 'Why minimal web design still wins for developer communities',
     description: 'A practical argument for strong typography, neutral backgrounds, and fast-first interfaces.',
     tags: ['design', 'community', 'frontend'],
-  },
-  {
-    id: 3,
-    type: 'news',
-    title: 'A new static search engine approach for personal blogs',
-    description: 'Developers are experimenting with local-first indexing to keep personal sites fast and searchable.',
-    tags: ['search', 'web', 'blogs'],
-  },
-  {
-    id: 4,
-    type: 'project',
-    title: 'Markdown-first changelog tool with GitHub sync',
-    description: 'Publish release notes from a repo, keep a public archive, and auto-generate issue summaries.',
-    tags: ['github', 'tooling', 'release'],
-  },
-  {
-    id: 5,
-    type: 'blog',
-    title: 'Building a community feed that feels human, not algorithmic',
-    description: 'Lessons from curated ranking, visible moderation, and surfacing small contributors early.',
-    tags: ['ux', 'ranking', 'social-web'],
-  },
-  {
-    id: 6,
-    type: 'news',
-    title: 'Browser-native code sandboxes are getting dramatically lighter',
-    description: 'New experiments reduce boot time and improve small-demo sharing for docs and tutorials.',
-    tags: ['browser', 'javascript', 'dx'],
   }
+  
 ];
 
 const sidebarNews = [
@@ -48,21 +21,6 @@ const sidebarNews = [
     source: 'indie builders',
     title: 'Tiny communities are outperforming bigger feeds in engagement',
     sub: 'Smaller curated spaces are keeping signal high and moderation costs low.'
-  },
-  {
-    source: 'open source',
-    title: 'Maintainers are rethinking documentation homepages',
-    sub: 'Docs are getting more editorial, more visual, and easier for first-time contributors.'
-  },
-  {
-    source: 'frontend',
-    title: 'Vanilla JS micro-sites are trending again',
-    sub: 'Fast, dependency-light pages are regaining popularity for experiments and showcases.'
-  },
-  {
-    source: 'design systems',
-    title: 'Rounded brutalism continues to show up in indie tech UIs',
-    sub: 'Hard borders plus soft radii are common in product launches and community pages.'
   }
 ];
 
